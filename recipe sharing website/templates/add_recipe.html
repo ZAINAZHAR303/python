@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/add_styles.css">
+</head>
+<body>
+    
+        <!-- <input type="file" id="myFile" name="filename" accept=>
+        <input type="submit"> -->
+
+        <div class="block">
+            
+            <div class="img_box">
+                <div class="image" id="image_div">
+                    
+                    <img src="/static/images/uploadlogo.png" alt="logo" id="img_container">
+                </div>
+                
+
+                <label for="pic_input" >Upload Image</label>
+                <input type="file"  name="filename" id="pic_input">
+
+            </div>
+            <div class="details">
+                <form action="add_recipe">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="user_name">
+
+                    <label for="recipe_title">Recipe Name</label>
+                    <input type="text" name="recipe_name" id="recipe_name">
+
+                    <label for="recipe_desc">Recipe Description</label>
+                    <textarea type="text" name="recipe_desc" id="recipe_desc" cols="40" rows="5">
+                    </textarea><br>
+                </form>
+                <div id="save_btn">
+                <button type="submit">Submit</button>
+                </div>
+
+            </div>
+            
+
+        </div>
+<script src="/static//js/add_recipe.js"></script>
+</body>
+</html>

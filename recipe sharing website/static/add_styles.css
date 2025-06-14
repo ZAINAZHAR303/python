@@ -1,0 +1,109 @@
+.block {
+    width: 25rem;
+    height: 32rem;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    position: relative;
+}
+
+.image img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img_box {
+    position: relative;
+    width: 25rem; /* Change this to match the new width of the .block */
+}
+
+.img_box label {
+    background-color: red;
+    color: white;
+    height: max-content;
+    width: max-content;
+    padding: 7px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img_box input {
+    visibility: hidden;
+}
+.details{
+    margin-top: 30px;
+    padding-left: 70px;
+    /* display: inline-block; */
+    
+}
+.details form{
+    height: max-content;
+}
+.details label{
+    
+    font-family: Helvetica, sans-serif;
+}
+.details input{
+    display: block;
+    width: 250px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.details textarea{
+    display: block;
+    width: 250px;
+    height: 25px;
+    border-color: rgb(50, 186, 216);
+    border: 2px solid black;
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+}
+#recipe_desc{
+  height: 50px;
+  margin-bottom: none;
+}
+
+#save_btn{
+    width: 25rem;
+    
+    
+}
+#save_btn button{
+    background-color: red;
+    color:white;
+    height: max-content;
+    width: max-content;
+    padding: 7px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    /* width: 100px; */
+    margin: none;
+    ;
+    
+   
+}
