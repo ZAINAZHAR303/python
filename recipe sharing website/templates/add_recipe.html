@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/static/add_styles.css">
+
+    <style>
+        .details{
+            text-align: center;
+            background-color: cadetblue;
+            /* margin-top: 50px; */
+            margin-top:50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .add_recipe{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+        }
+    </style>
 </head>
 <body>
     
@@ -25,7 +42,7 @@
 
             </div>
             <div class="details">
-                <form action="add_recipe">
+                <form action="add_recipe" class="add_recipe">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="user_name">
 
